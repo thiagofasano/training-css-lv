@@ -1,0 +1,60 @@
+// Header
+.header {
+	display: flex;
+	align-items: stretch;
+
+	flex: 0 1 auto;
+	height: 80px;
+	padding-top: 10px;
+	border-bottom: 1px solid $cinza-light; 
+	background: url(../images/cloud-bar.png) no-repeat top;
+	
+	&-logo {
+		padding: 15px 25px;
+		border-right: 1px solid $cinza-light;
+
+		&-lv {
+			display: block;
+			width: 150px;
+			height: 50px;
+			text-indent: -9999px;
+			background: url(../images/logo.png) no-repeat;
+		}
+	}
+
+	&-search {
+		padding: 15px 25px;
+		flex-grow: 6;
+		border-right: 1px solid $cinza-light;
+
+		&-form-input {
+			border: none;
+			width: 100%;
+			padding: 20px 0;
+		}
+	}
+
+	&-menu {
+		flex-grow: 5;
+		padding: 15px 25px;
+		font-family: "Miriam Libre","Source Sans Pro",sans-serif;
+
+		&-itens {
+			display: flex;
+			justify-content: space-between;
+
+			&-item {
+				padding: 15px;
+				list-style: none;
+			}
+
+			&-item a {
+					text-decoration: none;
+			}
+
+			&-item a:hover {
+						color: $vermelho;
+			}
+		}
+	}
+} 
