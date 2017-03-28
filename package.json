@@ -1,7 +1,7 @@
 {
-  "name": "brf",
+  "name": "LV Training",
   "version": "1.0.0",
-  "description": "Refazendo site BRF",
+  "description": "Refazendo site LV",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
